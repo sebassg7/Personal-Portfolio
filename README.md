@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Aplicación de Gestión de Pendientes en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta es una aplicación desarrollada en React que te permite agregar, marcar y eliminar pendientes de manera sencilla. La aplicación utiliza functional components, estados, React context, React portals y almacenamiento local con LocalStorage para ofrecer una experiencia fluida y eficiente.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Agregar Pendientes:** Puedes agregar nuevas tareas pendientes especificando su nombre y detalles relevantes.
+  
+- **Marcar Pendientes:** Una vez completadas, puedes marcar las tareas como completadas para mantener un registro de tu progreso.
 
-### `npm start`
+- **Eliminar Pendientes:** Si decides no completar una tarea o si ya no es relevante, puedes eliminarla de la lista de pendientes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologías Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Functional Components:** Se utiliza la sintaxis de componentes funcionales de React para estructurar la aplicación de manera modular y fácil de mantener.
 
-### `npm test`
+- **Estados:** Los estados de React se emplean para gestionar la información dinámica de la aplicación, como la lista de pendientes y su estado de completado.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React Context:** Se utiliza el contexto de React para manejar el estado global de la aplicación y facilitar la comunicación entre componentes.
 
-### `npm run build`
+- **React Portals:** Los portales de React se utilizan para renderizar ciertos componentes fuera del árbol de DOM principal, proporcionando flexibilidad en el diseño y la estructura de la interfaz de usuario.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **LocalStorage:** La aplicación utiliza el almacenamiento local del navegador mediante LocalStorage para persistir los datos de los pendientes incluso después de cerrar y volver a abrir la aplicación.
